@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      {/* Your other content */}
+      {/* Other content */}
     </div>
   )
 }

@@ -9,8 +9,8 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <a href="#" className="text-xl font-bold text-gray-800">
-              Jay's Portfolio
+            <a href="#" className="text-xl font-bold text-green-600">
+              Your Logo
             </a>
           </div>
 
@@ -19,25 +19,25 @@ export default function Navbar() {
             <div className="flex space-x-8">
               <a
                 href="#"
-                className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition duration-300"
+                className="text-green-700 hover:text-green-900 px-3 py-2 text-sm font-medium transition duration-300"
               >
                 Home
               </a>
               <a
                 href="#"
-                className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition duration-300"
+                className="text-green-700 hover:text-green-900 px-3 py-2 text-sm font-medium transition duration-300"
               >
                 About
               </a>
               <a
                 href="#"
-                className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition duration-300"
+                className="text-green-700 hover:text-green-900 px-3 py-2 text-sm font-medium transition duration-300"
               >
                 Services
               </a>
               <a
                 href="#"
-                className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition duration-300"
+                className="text-green-700 hover:text-green-900 px-3 py-2 text-sm font-medium transition duration-300"
               >
                 Portfolio
               </a>
@@ -50,6 +50,15 @@ export default function Navbar() {
             </div>
           </div>
 
+          {/* CTA Button */}
+          <div className="hidden md:block">
+            <a
+              href="#"
+              className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md text-sm font-medium transition duration-300"
+            >
+              Get Started
+            </a>
+          </div>
 
           {/* Mobile menu button */}
           <div className="md:hidden">
@@ -109,6 +118,12 @@ export default function Navbar() {
                 className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium"
               >
                 Contact
+              </a>
+              <a
+                href="#"
+                className="bg-blue-600 hover:bg-blue-700 text-white block px-3 py-2 rounded-md text-base font-medium mt-4"
+              >
+                Get Started
               </a>
             </div>
           </div>

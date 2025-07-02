@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "Personal Website",
-  "homepage": "https://github.com/JVng36/Portfolio#readme",
+  "homepage": "https://JVng36.github.io/Portfolio",
   "bugs": {
     "url": "https://github.com/JVng36/Portfolio/issues"
   },
@@ -14,13 +14,18 @@
   "author": "",
   "type": "commonjs",
   "main": "index.js",
-  "homepage": "https://JVng36.github.io/portfolio",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
-    "gh-pages": "^6.3.0"
+    "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.11"
   }
 }

@@ -6,7 +6,7 @@ export default function Footer() {
         {/* Name/Brand */}
         <div className="mb-8">
           <h3 className="text-2xl font-bold mb-2">Jay</h3>
-          <p className="text-gray-400">Full Stack Developer</p>
+          <p className="text-gray-400"></p>
         </div>
 
         {/* Social Media Links */}
